@@ -35,8 +35,8 @@
             print("<td>".$row->cpf."</td>");
             print("<td>".$row->data."</td>");
             print("<td>
-            <button class='btn btn-success'>Editar</button>
-            <button class='btn btn-danger'>Deletar</button>
+            <button class='btn btn-success' onclick=location.href='editar.php?codigo=$row->codigo'>Editar</button>
+            <button class='btn btn-danger' onclick=location.href='deletar.php?codigo=$row->codigo'>Deletar</button>
             
             </td>");
             print("</tr>");
